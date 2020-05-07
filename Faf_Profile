@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>
+      My Profile Page
+    </title>
+  </head>
+  <body>
+    <h1>FAF DU PLESIS</h1>
+    <img src="https://www.cricket.com.au/-/media/Players/Men/International/South%20Africa/Faf-du-Plessis-T2018.ashx" alt="MY PROFILE PIC" height="20%" width="20%"><!-- img tag does not need to be closed-->
+    <p>I am not a fan of cricket anymore. But I just like this guy.He is the captain of South African National Cricket Team.</p>
+    
+    <h3>Career Statistics</h3>
+    <!-- List are not tables -->
+      <ul>
+        <li>Matches:-
+        <ul>
+        <li>ODI:- 186</li> 
+        <li>Test:- 45</li>
+        <li>T20:- 53</li>
+        </ul>
+        </li>
+        <li>Runs:-
+        <ul>
+        <li>ODI:- 8424</li> 
+        <li>Test:- 5345</li>
+        <li>T20:- 2342</li>
+        </ul>
+        </li>
+        <li>Wickets:-
+        <ul>
+        <li>ODI:- 9</li> 
+        <li>Test:- 4</li>
+        <li>T20:- 0</li>
+        </ul>
+        </li>
+        <li>Catches:- 96(All)</li>
+        <li>Career Average(Run):- 
+        <ul>
+        <li>ODI:- 45.29</li> 
+        <li>Test:- 35.56</li>
+        <li>T20:- 29.67</li>
+        </ul>
+        </li>
+    </ul> 
+    <!-- a href has a closing tag. href contains the link to which the page is directing.  -->
+    Please contact him at <a href="https://www.icc-cricket.com/"> My Home </a>
+  </body>
+</html>
