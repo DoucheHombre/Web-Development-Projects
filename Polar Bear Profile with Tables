@@ -1,0 +1,169 @@
+index.html (Important file. see its code for reference)
+____________
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>💚Poli's Personal Site🌏</title>
+</head>
+
+<body>
+  <table cellspacing="4">
+    <tr>
+      <td>
+        <img src="image/PolarBear.jpg" alt="My Image" width="200px" height="150px">
+        <!--in img src i.e source we can have the location of the from the internet
+  or we can have from the pc (as i have done here). PolarBear.jpg is inside image
+  folder so i have used image/PolarBear.jpg
+   -->
+
+      </td>
+      <td>
+
+        <h1>🚅Poli Popaloo Poopla🚀</h1>
+        <p><em>Founder and❄🍃 <strong><a href="https://polarbearsinternational.org/">CEO of nothing⇜💗My Home Site</a></strong></em></p>
+        <p>
+          Hi, I am Poli Popaloo Poopla. I am a Polar Bear. Sam Smith is my favourite.
+          I love it when he twerks.✂
+          <br>
+          I poop white. Popaloo was my best friends name. I loved him. I am gay.
+          <br>
+          People call me Big Lump of Deep Shit.👣
+        </p>
+
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Education and Schooling🐲</h3>
+  <ul>
+    <li><a href="https://www.harvard.edu/">Brooklyn State Dominican Republic University.⌚</a></li>
+    <li><a href="https://www.uq.edu.au/">Victorian Goldsmith Domsbury High School, New York.🐮</a></li>
+    <li><a href="https://www.bifrost.is/english/">St. Thompson Primary School, Chicago.🌸</a></li>
+    <!--
+    <a href="https://example.com">Website</a> (for normal page linking)
+    <a href="mailto:m.bluth@example.com">Email</a> (for mail)
+    <a href="tel:+123456789">Phone</a> (for phone call)
+    -->
+    <li><a href="secondpage.html">OOPS😎</a></li>
+  </ul>
+  <h3>Work</h3>
+  <table border="5">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2012-2014</td>
+        <td>Alaskan Conservatory Union</td>
+      </tr>
+      <tr>
+        <td>2015</td>
+        <td>Whale Conservation Forum Lead</td>
+      </tr>
+    </tbody>
+    <!-- <tfoot>
+
+  </tfoot> -->
+    <table>
+      <h3>Skills</h3>
+      <table>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td>Maths</td>
+                <td>✰✰✰🌟</td>
+              </tr>
+              <tr>
+                <td>Java</td>
+                <td>✰✰🌟</td>
+              </tr>
+              <tr>
+                <td>Web Development</td>
+                <td>✰✰🌟</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>Painting</td>
+                <td>✰✰🌟</td>
+              </tr>
+              <tr>
+                <td>Photography</td>
+                <td>✰🌟</td>
+              </tr>
+              <tr>
+                <td>Painting</td>
+                <td>✰✰🌟</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <a href="contact-me.html">Come To Me</a>
+      <!-- <img /> tag can also be used inside <a> tag. eg.
+<a  target="_blank" href="https://www.wikipedia.org">
+  Wikipedia
+  <img alt="(opens in new tab)" src="newtab.svg">
+</a> -->
+</body>
+
+</html>
+<!--16 -->
+__________________________________________________________________________________________________________________
+
+secondpage.html
+_________________
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My another Avatar</title>
+</head>
+
+<body>
+  <h1>Popyeye The Poooopleganger POOplistic</h1>
+  <ol>
+    <li>She papa lappa le</li>
+    <li>Loopaloopa loppalooopa</li>
+    <ul>
+      <li>leba liba leba liba</li>
+      <li>Fucuki Chukuni Mukuni Ta</li>
+    </ul>
+  </ol>
+  <h3><a href="index.html">Home</a></h3>
+  <!-- Correct way is to put <a> inside <h> tag but in html 5 you can do anything.
+  <a> inside <h> or vice versa-->
+</body>
+
+</html>
+
+__________________________________________________________________________________________________________
+
+contact-me.html
+___________________
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Conmtact</title>
+  </head>
+  <body>
+    <h1>Come to Alaska Baby!!!</h1>
+    <br>
+    <br>
+    <h3><a href="index.html">Home</a></h3>
+  </body>
+</html>
+
