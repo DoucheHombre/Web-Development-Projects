@@ -1,0 +1,179 @@
+Html Form
+
+<!-- Form which will send a GET request to the current URL -->
+<form>
+  <label>Name:
+    <input name="submitted-name" autocomplete="name">
+  </label>
+  <button>Save</button>
+</form>
+<!-- Form which will send a POST request to the current URL -->
+<form method="post">
+  <label>Name:
+    <input name="submitted-name" autocomplete="name">
+  </label>
+  <button>Save</button>
+</form>
+<!-- Form with fieldset, legend, and label -->
+<form method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <label><input type="radio" name="radio"> Select me</label>
+  </fieldset>
+</form>
+
+From <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form> 
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Conmtact</title>
+  </head>
+  <body>
+    <h1>Come to Alaska Baby!!!</h1>
+    <br>
+    <form class="" action="" method="">
+      <label>Name:
+      <input type="text" name="" value=""></label>
+      <input type="color" name="" value="">
+      <label>Do you want to get into our emaqil list?</label>
+      <input type="checkbox" name="" value="">
+      <input type="radio" name="" value="">
+      <input type="range" name="" value="">
+      <input type="file" name="" value="">
+      <input type="time" name="" value="">
+      <input type="tel" name="" value="">
+      <input type="url" name="" value=""><br>
+      <input type="image" name="cfsad" value="sas">
+      <br>
+      <label> Search:</label>
+      <input type="search" name="" value="">
+      <input type="week" name="" value="">
+      <input type="month" name="" value="">
+      <!-- type="month" provides the calendar in chrome-->
+      <input type="submit" name="">
+      <input type="reset" name="">
+
+    </form>
+    <br>
+    <h3><a href="index.html">Home</a></h3>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Conmtact</title>
+</head>
+
+<body>
+  <h1>Come to Alaska Baby!!!</h1>
+  <p>My address</p>
+  <p>Phone Number</p>
+  <p>My email</p>
+  <hr>
+  <form class="" action="index.html" method="post">
+    <label>Your Name:</label>
+    <input type="text" name="" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="name" rows="10" cols="30"></textarea>
+  </form>
+
+
+  <br>
+  <h3><a href="index.html">Home</a></h3>
+</body>
+
+</html>
+
+Disabled and readonly
+This example shows two <textarea>s — one of which is disabled, and one of which is readonly. Have a play with both and you'll see the difference in behavior — the disabled element is not selectable in any way (and its value is not submitted), whereas the readonly element is selectable and its contents copyable (and its value is submitted); you just can't edit the contents.
+Note: In browsers other than firefox, such as chrome, the disabled textarea content may be selectable and copyable.
+
+
+<textarea name="textarea"
+   rows="5" cols="30"
+   disabled>I am a disabled textarea</textarea>
+<textarea name="textarea"
+   rows="5" cols="30"
+   readonly>I am a readonly textarea</textarea>
+
+From <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea> 
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Conmtact</title>
+</head>
+
+<body>
+  <h1>Come to Alaska Baby!!!</h1>
+  <p>My address</p>
+  <p>Phone Number</p>
+  <p>My email</p>
+  <hr>
+  <form class="" action="index.html" method="post">
+    <label>Your Name:</label>
+    <input type="text" name="" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="name" rows="10" cols="30" disabled placeholder="BABY"></textarea>
+  </form>
+
+
+  <br>
+  <h3><a href="index.html">Home</a></h3>
+</body>
+
+</html>
+
+-------------------------------------
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Conmtact</title>
+</head>
+
+<body>
+  <h1>Come to Alaska Baby!!!</h1>
+  <p>My address</p>
+  <p>Phone Number</p>
+  <p>My email</p>
+  <hr>
+  <form class="" action="mailto:proman@polarbearsinternational.df" method="post" enctype="text/plain">
+<!--mailto in action opens up mail app
+with the fields below as values present in the email(pre filled)
+and enctype tells us about the encoding type in the email as plain text   -->
+    <label>Your Name:</label>
+    <input type="text" name="Your Name" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="Your Email" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="Your Message" rows="10" cols="30"></textarea>
+    <input type="submit" name="">
+  </form>
+
+
+  <br>
+  <h3><a href="index.html">Home</a></h3>
+</body>
+
+</html>
+
+
+https://douchehombre.github.io/Polar-Bear/
+
+From <https://github.com/DoucheHombre/Polar-Bear/settings> 
